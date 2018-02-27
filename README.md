@@ -14,12 +14,12 @@ You can run the entire project via `elm-reactor`
 This is a list of helpful videos, guides, articles & other examples 
 
 #### Videos
-- [CSS As BYTECODE](https://www.youtube.com/watch?v=w4_1SagLY94)
-- [Understanding style](https://www.youtube.com/watch?v=NYb2GDWMIm0)
+- [CSS As BYTECODE](https://www.youtube.com/watch?v=w4_1SagLY94) by Richard Feldman
+- [Understanding style](https://www.youtube.com/watch?v=NYb2GDWMIm0) by Matthew Griffith
 
 #### Others
 - [Style Elements Guide](https://mdgriffith.gitbooks.io/style-elements/)
-- [Style Elements Offical Examples](https://github.com/mdgriffith/style-elements/tree/master/examples)
+- [Style Elements official Examples](https://github.com/mdgriffith/style-elements/tree/master/examples)
 
 # Ongoing work
 This is an ongoing effort to help new comers to the get started quickly
