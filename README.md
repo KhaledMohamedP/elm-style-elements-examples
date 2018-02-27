@@ -4,7 +4,7 @@ This is a list of simple-to-complex examples to build style elements via [style-
 All the examples are in the `src` directory
 
 # Install
-- Clone this repo
+- Clone this repo `git clone https://github.com/KhaledMohamedP/elm-style-elements-examples.git`
 - Run `elm-package install`
 
 # Run
