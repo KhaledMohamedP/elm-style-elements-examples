@@ -1,9 +1,9 @@
 module Main exposing (main)
 
+import Color
+import Element exposing (Element, el, layout, text)
 import Html exposing (Html)
-import Element exposing (Element, el, text, layout)
-import Style exposing (style, styleSheet, StyleSheet)
-import Color 
+import Style exposing (StyleSheet, style, styleSheet)
 import Style.Color as ColorKey
 
 
@@ -13,15 +13,20 @@ main =
 
 
 helloElm : Element Styles variation msg
-helloElm = 
+helloElm =
     el MainHeading [] (text "hello world!")
+
+
 
 -- All styles logic here
 
-type Styles = MainHeading
+
+type Styles
+    = MainHeading
+
 
 stylesheet : StyleSheet Styles variation
-stylesheet = 
-    styleSheet [
-        style MainHeading [ColorKey.background Color.red]
-    ]
+stylesheet =
+    styleSheet
+        [ style MainHeading [ ColorKey.background Color.red ]
+        ]
