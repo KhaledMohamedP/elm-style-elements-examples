@@ -10,11 +10,11 @@ import Style.Color as ColorKey
 
 main : Html msg
 main =
-    layout stylesheet rowElm
+    layout stylesheet headerBar
 
 
-rowElm : Element Styles variation msg
-rowElm =
+headerBar : Element Styles variation msg
+headerBar =
     row None
         [ spacing 5, padding 5, height (px 50) ]
         [ logo
